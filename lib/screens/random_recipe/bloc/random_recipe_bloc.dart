@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import '../../../models/Faliure.dart';
+import '../../../models/faliure.dart';
 import '../../../models/equipment.dart';
 import '../../../models/nutrients.dart';
 import '../../../models/racipe.dart';

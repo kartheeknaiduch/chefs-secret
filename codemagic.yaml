@@ -7,13 +7,15 @@ workflows:
       flutter: 2.10.5
       xcode: latest
       cocoapods: default
+      groups:
+        - recipe_secrets
     scripts:
       - name: Get Flutter packages
         script: |
           flutter packages pub get
       - name: Build Android APK
         script: |
-          flutter build apk --release
+          flutter build apk --release --dart-define=SPOONACULAR_API_KEY=$SPOONACULAR_API_KEY
     artifacts:
       - build/**/outputs/**/*.apk
     publishing:

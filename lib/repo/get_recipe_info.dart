@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:dio/dio.dart';
 import 'package:recipia/api/api_key.dart';
-import '../models/Faliure.dart';
+import '../models/faliure.dart';
 import '../models/equipment.dart';
 import '../models/nutrients.dart';
 import '../models/racipe.dart';
