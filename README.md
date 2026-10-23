@@ -2,7 +2,7 @@
 
 A modern Flutter recipe application with rich recipe discovery, nutritional breakdowns, category browsing, and saved favorite recipes.
 
-**Owner & Author:** Varshitha
+**Owner & Author:** Kartheek Naidu
 
 ---
 
